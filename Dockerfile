@@ -14,4 +14,4 @@ COPY Update-DNSRecord-ACI.ps1 .
 
 #CMD [ "./Update-DNSRecord-ACI.ps1" ]
 
-ENTRYPOINT ["pwh", "/run.ps1"]
+ENTRYPOINT ["pwsh", "/run.ps1"]
